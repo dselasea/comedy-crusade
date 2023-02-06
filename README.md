@@ -60,36 +60,36 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Digital Marketing Agency <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[The Capstone Project]** is a project that tests your understanding of core web development skills like HTML, CSS, JavaScript, git and github.
+**Digital Marketing Agency is a Capstone Project** that tests your understanding of core web development skills like HTML, CSS, JavaScript, git and github.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack">HTML</a>
-### Tech Stack <a name="tech-stack">CSS/SCSS</a>
-### Tech Stack <a name="tech-stack">JavaScript</a>
+### <a name="tech-stack">HTML</a>
+### <a name="tech-stack">CSS/SCSS</a>
+### <a name="tech-stack">JavaScript</a>
 
 > Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
-  <summary>Client</summary>
+  <summary>Structure</summary>
   <ul>
     <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Server</summary>
+  <summary>Style</summary>
   <ul>
     <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Database</summary>
+<summary>Functionality</summary>
   <ul>
     <li><a href="#">JAVASCRIPT</a></li>
   </ul>

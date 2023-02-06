@@ -5,28 +5,28 @@ let programContent = document.querySelector('.program__content');
 
 const program = [
   {
-    img: '',
-    title: 'Lecture',
+    icon: '<i class="fa-solid fa-blog fa-2x"></i>',
+    title: 'Blogging',
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
   {
-    img: '',
-    title: 'CC Exhibition',
+    icon: '<i class="fa-solid fa-chess-rook fa-2x"></i>',
+    title: 'Strategy',
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
   {
-    img: '',
-    title: 'Forum',
+    icon: '<i class="fa-solid fa-cart-shopping fa-2x"></i>',
+    title: 'Marketing',
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
   {
-    img: '',
-    title: 'Workshop',
+    icon: '<i class="fa-brands fa-adversal fa-2x"></i>',
+    title: 'Adversing',
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
   {
-    img: '',
-    title: 'CC Ignite',
+    icon: '<i class="fa-solid fa-globe fa-2x"></i>',
+    title: 'Websites',
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
 
@@ -39,8 +39,9 @@ let htmlContent = '';
 for(let i = 0; i < program.length; i += 1){
   htmlContent += `
   <div class="programs">
-  <h4>${program[i].title}</h4>
-  <p>${program[i].description}</p>
+  <span>${program[i].icon}</span>
+  <h4 class='programs__title'>${program[i].title}</h4>
+  <p class='programs__description'>${program[i].description}</p>
   </div>`;
   programContent.innerHTML = htmlContent;
 }

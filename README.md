@@ -77,21 +77,21 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="#">HTML</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">CSS</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">JAVASCRIPT</a></li>
+    <li><a href="#">JAVASCRIPT</a></li>
   </ul>
 </details>
 

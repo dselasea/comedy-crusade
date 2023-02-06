@@ -1,5 +1,6 @@
 const menu = document.querySelector('.menu__logo--hamburger');
 const menuLink = document.querySelector('.menu__link');
+const moreBtn = document.querySelector('.speaker__btn');
 
 let programContent = document.querySelector('.program__content');
 let speakerContent = document.querySelector('.speaker__content');
@@ -95,7 +96,8 @@ for(let i = 0; i < program.length; i += 1){
 }
 
 // Speakers
-for(let i = 0; i < speakers.length; i += 1){
+let speakerLength = speakers.length;
+for(let i = 0; i < speakerLength; i += 1){
   htmlSpeakerContent += `
   <div class="speaker__container">
       <div class="speaker__content--img">
@@ -113,5 +115,4 @@ for(let i = 0; i < speakers.length; i += 1){
 
 function openMenu() {
   menuLink.classList.toggle('open');
-  console.log('clicked')
 }

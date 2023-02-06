@@ -1,0 +1,81 @@
+/* About Header Section */
+.about {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about .about__title--small {
+  font-size: 1.5rem;
+  color: var(--orange);
+  font-weight: 400;
+}
+
+.about .about__title--large {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--orange);
+}
+
+.about .about__description {
+  background-color: var(--white);
+  border: 2px solid var(--white);
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.about .about__date {
+  color: var(--black);
+  font-weight: bolder;
+}
+
+.about .about__date--time {
+  opacity: 0.9;
+}
+
+.about .about__date--email {
+  font-weight: bolder;
+  color: var(--black);
+  text-decoration: underline;
+}
+/* End of Section */
+
+.main {
+  text-align: center;
+}
+
+.main .about__main--title,
+.main .event__main--title {
+  font-size: 1.5rem;
+  position: relative;
+  padding: 2rem 0;
+}
+
+.main .about__main--title::before,
+.main .event__main--title::before {
+  content: '';
+  position: absolute;
+  width: 70px;
+  top: 70px;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  height: 3px;
+  background-color: var(--orange);
+}
+
+.main .about__logo--title {
+  padding: 2rem;
+  margin: 2rem;
+  border: 2px solid var(--grey);
+}
+
+.event {
+  border-top: 2px solid var(--grey);
+}
+
+/*  */
+/* End of Main Section Program */
+
+
+
+

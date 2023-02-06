@@ -30,6 +30,40 @@ const program = [
     description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
   },
 
+];
+
+const speakers = [
+  {
+    img: '<i class="fa-solid fa-blog fa-2x"></i>',
+    speaker: 'Blogging',
+    title: 'Professor',
+    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+  },
+  {
+    img: '<i class="fa-solid fa-chess-rook fa-2x"></i>',
+    speaker: 'Strategy',
+    title: 'Teacher',
+    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+  },
+  {
+    img: '<i class="fa-solid fa-cart-shopping fa-2x"></i>',
+    speaker: 'Marketing',
+    title: 'Student',
+    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+  },
+  {
+    img: '<i class="fa-brands fa-adversal fa-2x"></i>',
+    speaker: 'Adversing',
+    title: 'Marketer',
+    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+  },
+  {
+    img: '<i class="fa-solid fa-globe fa-2x"></i>',
+    speaker: 'Websites',
+    title: 'Sales Person',
+    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+  },
+
 ]
 
 menu.addEventListener('click', openMenu);

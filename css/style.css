@@ -171,14 +171,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .program .program__title,
-.speaker .speaker__title {
+.speaker .speaker__title,
+.partner .partner__title {
   font-size: 1.5rem;
   position: relative;
   padding: 2rem 0;
+  text-align: center;
 }
 
 .program .program__title::before,
-.speaker .speaker__title::before {
+.speaker .speaker__title::before,
+.partner .partner__title::before {
   content: '';
   position: absolute;
   width: 70px;
@@ -301,7 +304,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 /* Partner */
 .partner {
   background-color: var(--black);
-  padding: 4rem 0;
+  padding-bottom: 2rem;
+}
+
+.partner .partner__title {
+  color: var(--white);
 }
 
 .partner .partner__content {
@@ -312,10 +319,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   align-items: center;
 }
 
-.partner .partner__logo {
+.partner div .partner__logo {
   height: 90px;
-  display: block;
   justify-self: center;
+  align-self: center;
 }
 /* End of Partner */
 

@@ -98,8 +98,7 @@ for(let i = 0; i < program.length; i += 1){
 
 // Speakers
 window.addEventListener('load', function() {
-let trimSpeakes = speakers.slice(0, 2)
-for(let i = 0; i < trimSpeakes.length; i += 1){
+for(let i = 0; i < speakers.length; i += 1){
   htmlSpeakerContent += `
   <div class="speaker__container">
       <div class="speaker__content--img">
@@ -117,7 +116,6 @@ for(let i = 0; i < trimSpeakes.length; i += 1){
 });
 
 moreBtn.addEventListener('click', function(){
-  trimSpeakes = speakers.slice(0, 4);
   console.log(trimSpeakes);
 })
 

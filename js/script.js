@@ -1,4 +1,5 @@
 const menu = document.querySelector('.menu__logo--hamburger');
+const body = document.querySelector('body');
 const menuLink = document.querySelector('.menu__link');
 const moreBtn = document.querySelector('.speaker__btn');
 
@@ -96,8 +97,9 @@ for(let i = 0; i < program.length; i += 1){
 }
 
 // Speakers
-let speakerLength = speakers.length;
-for(let i = 0; i < speakerLength; i += 1){
+let trimSpeakes = speakers.slice(0, 2)
+window.addEventListener('load', function() {
+for(let i = 0; i < trimSpeakes.length; i += 1){
   htmlSpeakerContent += `
   <div class="speaker__container">
       <div class="speaker__content--img">
@@ -112,7 +114,25 @@ for(let i = 0; i < speakerLength; i += 1){
   </div>`;
   speakerContent.innerHTML = htmlSpeakerContent;
 }
+});
+
+moreBtn.addEventListener('click', function(){
+  trimSpeakes = speakers.slice(0, 4);
+  console.log(trimSpeakes);
+})
 
 function openMenu() {
   menuLink.classList.toggle('open');
+  body.classList.toggle('overflow');
+  if(menuLink.classList.contains('open')){
+    menu.innerHTML = '<i class="fa-solid fa-xmark fa-2x"></i>';
+  }else {
+    menu.innerHTML = '<i class="fa-solid fa-bars fa-2x"></i>'
+  }
 }
+
+body.addEventListener('onscroll', function(e){
+  if(window.scrollX === '190'){
+  }
+  console.log('Hey')
+})

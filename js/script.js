@@ -97,8 +97,8 @@ for(let i = 0; i < program.length; i += 1){
 }
 
 // Speakers
-let trimSpeakes = speakers.slice(0, 2)
 window.addEventListener('load', function() {
+let trimSpeakes = speakers.slice(0, 2)
 for(let i = 0; i < trimSpeakes.length; i += 1){
   htmlSpeakerContent += `
   <div class="speaker__container">

@@ -122,13 +122,30 @@
   font-size: 1.2rem;
 }
 
+.footer .white {
+  display: none;
+}
+
 /* End of Main Section Program */
 
 /* Media Queries for desktop */
 @media screen and (min-width: 768px) {
+  .about__home {
+    display: none;
+  }
+
   .about {
     padding: 6rem 0 12rem 0;
   }
+
+  .about__partner {
+    display: none;
+  }
+
+  .partner {
+    background-color: var(--black);
+    padding-bottom: 2rem;
+}
 
   .about .about__title--small {
     font-size: 2rem;
@@ -144,7 +161,24 @@
     margin: 2rem auto;
   }
 
+  .event {
+    padding-bottom: 8rem;
+  }
+
   .event .event__content {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about__footer {
+    color: var(--white);
+    background-color: var(--black);
+  }
+
+  .footer .white {
+    display: block;
+  }
+  
+  .footer .black {
+    display: none;
   }
 }

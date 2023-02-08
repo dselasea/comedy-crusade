@@ -219,6 +219,15 @@ Feel free to check the [issues page](../../issues/).
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **Blog Page**
+- [ ] **Contact Form**
+- [ ] **Book Comedian Form**
 
 > Write a message to encourage readers to support your project
 
@@ -232,7 +241,7 @@ If you like this project follow me on twitter **@danielsanyidoho**
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Queenter Juma you can follow her on github. Click this link >> (<a href="#readme-top">https://github.com/QueenterJuma</a>)
+I would like to thank Queenter Juma you can follow her on github. Click this link >> (<a href="https://www.behance.net/adagio07">Cindy Shin</a>) the author of the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">original design.</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

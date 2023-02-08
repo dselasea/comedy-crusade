@@ -27,7 +27,7 @@ function loadSpeakers() {
   if (window.innerWidth < 768) {
     for (let i = 0; i < speakers.length - 4; i += 1) {
       htmlSpeakerContent += `
-      <div class="speaker__container">
+      <article class="speaker__container">
           <div class="speaker__content--img">
           <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
           <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
@@ -37,13 +37,13 @@ function loadSpeakers() {
             <p class="speaker__content--title">${speakers[i].speaker}</p>
             <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
-      </div>`;
+      </article>`;
       speakerContent.innerHTML = htmlSpeakerContent;
     }
   } else {
     for (let i = 0; i < speakers.length; i += 1) {
       htmlSpeakerContent += `
-      <div class="speaker__container">
+      <article class="speaker__container">
           <div class="speaker__content--img">
           <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
           <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
@@ -53,7 +53,7 @@ function loadSpeakers() {
             <p class="speaker__content--title">${speakers[i].speaker}</p>
             <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
-      </div>`;
+      </article>`;
       speakerContent.innerHTML = htmlSpeakerContent;
       moreBtn.style.display = 'none';
     }
@@ -65,7 +65,7 @@ function resizeWindow() {
   if (this.window.innerWidth > 768) {
     for (let i = 0; i < speakers.length; i += 1) {
       htmlSpeakerContent += `
-      <div class="speaker__container">
+      <article class="speaker__container">
           <div class="speaker__content--img">
           <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
           <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
@@ -75,7 +75,7 @@ function resizeWindow() {
             <p class="speaker__content--title">${speakers[i].speaker}</p>
             <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
-      </div>`;
+      </article>`;
       speakerContent.innerHTML = htmlSpeakerContent;
       moreBtn.style.display = 'none';
     }
@@ -83,7 +83,7 @@ function resizeWindow() {
     htmlSpeakerContent = '';
     for (let i = 0; i < speakers.length - 4; i += 1) {
       htmlSpeakerContent += `
-      <div class="speaker__container">
+      <article class="speaker__container">
           <div class="speaker__content--img">
           <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
           <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
@@ -93,7 +93,7 @@ function resizeWindow() {
             <p class="speaker__content--title">${speakers[i].speaker}</p>
             <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
-      </div>`;
+      </article>`;
       speakerContent.innerHTML = htmlSpeakerContent;
       moreBtn.style.display = 'block';
     }
@@ -105,7 +105,7 @@ function showMore() {
     htmlSpeakerContent = '';
     for (let i = 0; i < speakers.length; i += 1) {
       htmlSpeakerContent += `
-     <div class="speaker__container">
+     <article class="speaker__container">
          <div class="speaker__content--img">
          <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
          <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
@@ -115,7 +115,7 @@ function showMore() {
             <p class="speaker__content--title">${speakers[i].speaker}</p>
             <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
-     </div>`;
+     </article>`;
       speakerContent.innerHTML = htmlSpeakerContent;
     }
   }

@@ -379,6 +379,10 @@ a:focus {
 
 /* Desktop View */
 @media screen and (min-width: 768px) {
+  .nav .nav__social {
+    justify-content: flex-end;
+}
+
   .menu .menu__link .menu__link--items {
     font-size: 1rem;
   }

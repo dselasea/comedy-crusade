@@ -129,7 +129,11 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+- **git**
+- **github**
+- **terminal**
 
+git clone <git@github.com:myaccount/my-project.git>
 <!--
 Example command:
 
@@ -141,7 +145,8 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 <!--
 Example commands:
 
@@ -155,6 +160,8 @@ Example commands:
 
 Install this project with:
 
+cd my-project
+  npm install
 <!--
 Example command:
 
@@ -225,7 +232,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Queenter Juma you can follow her on github. Click this link >> <p align="right">(<a href="#readme-top">https://github.com/QueenterJuma</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

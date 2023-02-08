@@ -1,3 +1,4 @@
+// Select HTML Elements
 const menu = document.querySelector('.menu__logo--hamburger');
 const body = document.querySelector('body');
 const menuLink = document.querySelector('.menu__link');
@@ -8,6 +9,7 @@ let speakerContent = document.querySelector('.speaker__content');
 
 menu.addEventListener('click', openMenu);
 
+// Program Array
 const program = [
   {
     icon: '<i class="fa-solid fa-blog fa-2x"></i>',
@@ -37,6 +39,7 @@ const program = [
 
 ];
 
+// Speakers Array
 const speakers = [
   {
     img: './images/speaker-1.jpg',
@@ -86,6 +89,7 @@ const speakers = [
 let htmlContent = '';
 let htmlSpeakerContent = '';
 
+// Display Programs
 for(let i = 0; i < program.length; i += 1){
   htmlContent += `
   <div class="programs">
@@ -98,7 +102,7 @@ for(let i = 0; i < program.length; i += 1){
 
 // Speakers
 window.addEventListener('load', function() {
-for(let i = 0; i < speakers.length; i += 1){
+for(let i = 0; i < speakers.length - 4; i += 1){
   htmlSpeakerContent += `
   <div class="speaker__container">
       <div class="speaker__content--img">
@@ -115,10 +119,70 @@ for(let i = 0; i < speakers.length; i += 1){
 }
 });
 
-moreBtn.addEventListener('click', function(){
-  console.log(trimSpeakes);
+// Display Desktop Speakers
+window.addEventListener('resize', function() {
+  htmlSpeakerContent = '';
+  if(window.innerWidth > 768){
+    for(let i = 0; i < speakers.length; i += 1){
+      htmlSpeakerContent += `
+      <div class="speaker__container">
+          <div class="speaker__content--img">
+          <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
+          <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
+          </div>
+          <div class="speaker__content--main">
+            <h2 class="speaker__content--name">${speakers[i].title}</h2>
+            <p class="speaker__content--title">Berkman</p>
+            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+          </div>
+      </div>`;
+      speakerContent.innerHTML = htmlSpeakerContent;
+      moreBtn.style.display = 'none';
+    }
+  }else if (window.innerWidth < 768) {
+    htmlSpeakerContent = '';
+    for(let i = 0; i < speakers.length - 4; i += 1){
+      htmlSpeakerContent += `
+      <div class="speaker__container">
+          <div class="speaker__content--img">
+          <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
+          <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
+          </div>
+          <div class="speaker__content--main">
+            <h2 class="speaker__content--name">${speakers[i].title}</h2>
+            <p class="speaker__content--title">Berkman</p>
+            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+          </div>
+      </div>`;
+      speakerContent.innerHTML = htmlSpeakerContent;
+      moreBtn.style.display = 'block';
+    }
+  }
 })
 
+// Show more functionality
+moreBtn.addEventListener('click', function(){
+ if(speakerContent.childElementCount < 3){
+  htmlSpeakerContent = '';
+  for(let i = 0; i < speakers.length; i += 1){
+    htmlSpeakerContent += `
+    <div class="speaker__container">
+        <div class="speaker__content--img">
+        <img src='${speakers[i].chessImg}' alt="Chess Background" class="speaker__chess">
+        <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
+        </div>
+        <div class="speaker__content--main">
+          <h2 class="speaker__content--name">${speakers[i].title}</h2>
+          <p class="speaker__content--title">Berkman</p>
+          <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+        </div>
+    </div>`;
+    speakerContent.innerHTML = htmlSpeakerContent;
+  }
+ }
+})
+
+// Open and Close mobile menu functionality
 function openMenu() {
   menuLink.classList.toggle('open');
   body.classList.toggle('overflow');
@@ -128,9 +192,3 @@ function openMenu() {
     menu.innerHTML = '<i class="fa-solid fa-bars fa-2x"></i>'
   }
 }
-
-body.addEventListener('onscroll', function(e){
-  if(window.scrollX === '190'){
-  }
-  console.log('Hey')
-})

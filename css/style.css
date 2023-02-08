@@ -234,6 +234,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .program .program__btn:hover {
   opacity: 0.8;
 }
+
+.program .program__link {
+  display: block;
+}
 /* End of Main Section Program */
 
 /* Main section speaker */
@@ -249,9 +253,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .speaker .speaker__container {
   display: grid;
-  gap: 1rem;
-  grid-template-columns: 1.5fr 2fr;
+  grid-template-columns: 0.5fr 2fr;
   margin: 2rem 0;
+  gap: 0.8rem;
 }
 
 .speaker .speaker__content--img {
@@ -261,9 +265,9 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .speaker .speaker__chess {
   position: absolute;
   max-width: 100%;
-  height: 100px;
-  left: -20px;
-  top: -20px;
+  left: -12px;
+  height: 65px;
+  top: -12px;
   z-index: -1;
 }
 
@@ -277,9 +281,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   color: var(--black);
 }
 
+.speaker .speaker__content--name {
+  font-size: 1.2rem;
+}
+
+.speaker .speaker__person {
+  height: 100px;
+}
+
 .speaker .speaker__content--title {
   color: var(--orange);
-  padding: 0.5rem 0 1.5rem 0;
+  padding: 0.2rem 0 1rem 0;
 }
 
 .speaker .speaker__btn {
@@ -301,7 +313,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 /* End of Main section speaker */
 
-/* Partner */
+/* Spnsors */
 .partner {
   background-color: var(--black);
   padding-bottom: 2rem;
@@ -347,6 +359,45 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 /* End of Footer */
 
+
+/* Desktop View */
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 6rem 0 12rem 0;
+  }
+  .header .header__title--small {
+    font-size: 2rem;
+  }
+  
+  .header .header__title--large {
+    font-size: 3.5rem;
+  }
+  
+  .header .header__description {
+    font-size: 1.2rem;
+    width: 65%;
+  }
+  .program .program__content {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .program .programs {
+    grid-template-columns: 1fr;
+    text-align: center
+    ;
+  }
+
+  /* Speakers */
+  .speaker .speaker__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .speaker .speaker__person {
+    max-width: 100%;
+    height: auto;
+  }
+}
 /* Mobile Navigation */
 @media screen and (max-width: 768px) {
   .nav {

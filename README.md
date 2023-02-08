@@ -114,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- Live Demo Link(http://127.0.0.1:5501/about.html)
+-  [Live Demo Link](https://dselasea.github.io/digital-marketing-agency/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -243,6 +243,7 @@ If you like this project follow me on twitter **@danielsanyidoho**
 
 I would like to thank Queenter Juma you can follow her on github. Click this link >> (<a href="https://www.behance.net/adagio07">Cindy Shin</a>) the author of the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">original design.</a>
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->

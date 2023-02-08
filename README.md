@@ -222,7 +222,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project follow me on twitter **@danielsanyidoho**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +232,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Queenter Juma you can follow her on github. Click this link >> <p align="right">(<a href="#readme-top">https://github.com/QueenterJuma</a>)</p>
+I would like to thank Queenter Juma you can follow her on github. Click this link >> (<a href="#readme-top">https://github.com/QueenterJuma</a>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

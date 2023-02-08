@@ -64,7 +64,7 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**Digital Marketing Agency is a Capstone Project** that tests your understanding of core web development skills like HTML, CSS, JavaScript, git and github.
+**GH COMEDY CRUSADE is a Capstone Project** that tests your understanding of core web development skills like HTML, CSS, JavaScript, git and github.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -101,9 +101,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[Responsive Navigation]**
-- **[Dynamic Speakers Section]**
-- **[About Section]**
+- **Responsive Navigation**
+- **Dynamic Speakers Section**
+- **About Section**
+- **Slider Menu**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +134,7 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ git clone <git@github.com:myaccount/my-project.git>
 ```
  -->
 
@@ -159,37 +160,14 @@ Example command:
 
 ```sh
   cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+  npm install
 ```
 --->
 
 ### Deployment
 
 You can deploy this project using:
+-**Github Pages**
 
 <!--
 Example:
@@ -209,8 +187,8 @@ Example:
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/dselasea)
-- Twitter: [@twitterhandle](https://twitter.com/danielsanyidoho)
+- GitHub: [@dselasea](https://github.com/dselasea)
+- Twitter: [@danielsanyidoho](https://twitter.com/danielsanyidoho)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/dselasea)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -218,12 +196,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -263,13 +235,10 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **Is your page Responsive**
 
-  - [Answer_1]
+  - Yes it is. It has a width that fits for devices that are > 768px and < 768px
 
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

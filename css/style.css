@@ -99,7 +99,7 @@ a:focus {
 }
 
 .menu .menu__link {
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .menu .menu__link .menu__link--items {
@@ -120,7 +120,7 @@ a:focus {
   font-weight: 700;
   color: var(--orange);
   border: 3px solid var(--orange);
-  padding: 1rem;
+  padding: 1rem 0.5rem;
 }
 
 /* End of Menu Navigation */

@@ -139,10 +139,7 @@ a:focus {
 .header .header__title--large {
   font-size: 2.5rem;
   font-weight: 900;
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-image: url('/images/header\ background.jpeg');
+  color: var(--orange);
 }
 
 .header .header__description {

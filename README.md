@@ -60,11 +60,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Digital Marketing Agency <a name="about-project"></a>
+# 📖 GH COMEDY CRUSADE <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**GH COMEDY CRUSADE is a Capstone Project** that tests your understanding of core web development skills like HTML, CSS, JavaScript, git and github.
+**GH COMEDY CRUSADE is a ** website set aside to showcase Ghanaian stand up comedy talents. This project is build to test my understanding and usage of HTML, CSS, JavaScript, git and github.
 
 ## 🛠 Built With <a name="built-with"></a>
 

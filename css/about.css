@@ -1,3 +1,8 @@
+/* Active */
+.menu__link .menu__link--items .active {
+  color: var(--orange);
+}
+
 /* About Header Section */
 .about {
   padding: 6rem 0 8rem 0;

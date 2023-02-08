@@ -6,6 +6,7 @@ const menuLink = document.querySelector('.menu__link');
 // Open Menu
 menu.addEventListener('click', openMenu);
 
+// Open Menu Functioin
 function openMenu() {
   menuLink.classList.toggle('open');
   body.classList.toggle('overflow');

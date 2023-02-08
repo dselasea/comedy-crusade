@@ -35,42 +35,42 @@ export const speakers = [
     chessImg: './images/speaker-back.png',
     speaker: 'OB Amponsah',
     title: 'Stand-up Comedian/Optometrist',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Top Stand Up Comedian in Ghana. Performed both locally and internationally. Has 4 stand up comedy specials to his name.'
   },
   {
     img: './images/speaker-2.jpg',
     chessImg: './images/speaker-back.png',
     speaker: 'Khemikal',
     title: 'Stand-up Comedian/Software Engineer',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'One of the Old G\'s in Ghanaian stand up comedy. Performed both locally and internationally. Performed on all the big stages in Ghana.'
   },
   {
     img: './images/speaker-3.jpg',
     chessImg: './images/speaker-back.png',
     speaker: 'Lekzy De Comic',
     title: 'Stand-up Comedian/Interior Decorator',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Top Ghanaian Stand up comedian. Host of The Half Serious Show. Performed both locally and intenationally.'
   },
   {
     img: './images/speaker-4.jpg',
     chessImg: './images/speaker-back.png',
     speaker: 'DKB',
     title: 'Stand-up Comedian/Actor',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Legend in the Ghanaian comedy scene. One of the pioneers in Ghanaian stand up comedy. Performed both locally and internationally.'
   },
   {
     img: './images/speaker-5.jpg',
     chessImg: './images/speaker-back.png',
     speaker: 'Putogo',
     title: 'Stand-up comedian/Content Creator',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Stand up comedy prodigy. Witty and intelligent content creator. Performed on various stand up comedy stages.'
   },
   {
     img: './images/speaker-6.jpg',
     chessImg: './images/speaker-back.png',
     speaker: 'MJ the Comedian',
     title: 'Stand-up Comedian/Content Creator',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Fashionistor, Top Content Creator and Stand up comedian in Ghana. Compu Ghana Ambasaddor and organizer of the biggest walk event called Dashiki Walk.'
   },
 
 ];

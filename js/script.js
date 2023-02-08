@@ -47,8 +47,8 @@ function loadSpeakers() {
           </div>
           <div class="speaker__content--main">
             <h2 class="speaker__content--name">${speakers[i].title}</h2>
-            <p class="speaker__content--title">Berkman</p>
-            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+            <p class="speaker__content--title">${speakers[i].speaker}</p>
+            <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
       </div>`;
       speakerContent.innerHTML = htmlSpeakerContent;
@@ -63,8 +63,8 @@ function loadSpeakers() {
           </div>
           <div class="speaker__content--main">
             <h2 class="speaker__content--name">${speakers[i].title}</h2>
-            <p class="speaker__content--title">Berkman</p>
-            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+            <p class="speaker__content--title">${speakers[i].speaker}</p>
+            <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
       </div>`;
       speakerContent.innerHTML = htmlSpeakerContent;
@@ -85,8 +85,8 @@ function resizeWindow() {
           </div>
           <div class="speaker__content--main">
             <h2 class="speaker__content--name">${speakers[i].title}</h2>
-            <p class="speaker__content--title">Berkman</p>
-            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+            <p class="speaker__content--title">${speakers[i].speaker}</p>
+            <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
       </div>`;
       speakerContent.innerHTML = htmlSpeakerContent;
@@ -103,8 +103,8 @@ function resizeWindow() {
           </div>
           <div class="speaker__content--main">
             <h2 class="speaker__content--name">${speakers[i].title}</h2>
-            <p class="speaker__content--title">Berkman</p>
-            <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
+            <p class="speaker__content--title">${speakers[i].speaker}</p>
+            <p class="speaker__content--description">${speakers[i].description}</p>
           </div>
       </div>`;
       speakerContent.innerHTML = htmlSpeakerContent;
@@ -125,10 +125,10 @@ function showMore(){
          <img src='${speakers[i].img}' alt="Speaker Images" class="speaker__person">
          </div>
          <div class="speaker__content--main">
-           <h2 class="speaker__content--name">${speakers[i].title}</h2>
-           <p class="speaker__content--title">Berkman</p>
-           <p class="speaker__content--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta error quidem blanditiis ex provident repellat vitae vel ipsum vero debitis?</p>
-         </div>
+            <h2 class="speaker__content--name">${speakers[i].title}</h2>
+            <p class="speaker__content--title">${speakers[i].speaker}</p>
+            <p class="speaker__content--description">${speakers[i].description}</p>
+          </div>
      </div>`;
      speakerContent.innerHTML = htmlSpeakerContent;
    }

@@ -96,7 +96,7 @@ a, a:link, a:focus {
 }
 
 .menu .menu__link {
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .menu .menu__link .menu__link--items {
@@ -104,6 +104,7 @@ a, a:link, a:focus {
   color: var(--black);
   opacity: 0.6;
   transition: 0.5s;
+  font-size: 1.5rem;
 }
 
 .menu .menu__link .menu__link--items:hover,
@@ -302,13 +303,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 .speaker .speaker__content--title {
   color: var(--orange);
-  padding: 0.2rem 0 1rem 0;
 }
 
 .speaker .speaker__btn {
   padding: 1rem 2rem;
   font-size: 1.2rem;
-  border: 3px solid var(--grey);
+  border: 2px solid var(--grey);
   color: var(--black);
   background-color: var(--white);
   text-transform: uppercase;
@@ -373,6 +373,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 /* Desktop View */
 @media screen and (min-width: 768px) {
+  .menu .menu__link .menu__link--items {
+    font-size: 1rem;
+  }
+
   .header {
     padding: 6rem 0 12rem 0;
   }

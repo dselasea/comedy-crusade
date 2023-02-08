@@ -87,6 +87,7 @@
 
 .event .about__main--description {
   padding: 1rem 0;
+  font-size: 1.1rem;
 }
 
 .event .event__content--img {
@@ -117,7 +118,7 @@
 }
 
 .event .event__content--text p {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 /* End of Main Section Program */
 

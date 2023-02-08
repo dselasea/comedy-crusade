@@ -42,6 +42,7 @@
   color: var(--black);
   text-decoration: underline;
 }
+
 /* End of Section */
 
 .main {
@@ -120,6 +121,7 @@
 .event .event__content--text p {
   font-size: 1.2rem;
 }
+
 /* End of Main Section Program */
 
 /* Media Queries for desktop */
@@ -127,14 +129,15 @@
   .about {
     padding: 6rem 0 12rem 0;
   }
+
   .about .about__title--small {
     font-size: 2rem;
   }
-  
+
   .about .about__title--large {
     font-size: 3.5rem;
   }
-  
+
   .about .about__description {
     font-size: 1.2rem;
     width: 65%;
@@ -145,6 +148,3 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-
-

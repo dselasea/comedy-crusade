@@ -14,27 +14,27 @@ const program = [
   {
     icon: '<i class="fa-solid fa-blog fa-2x"></i>',
     title: 'Blogging',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Come and see different media houses and blogger blogging about the event.'
   },
   {
     icon: '<i class="fa-solid fa-chess-rook fa-2x"></i>',
     title: 'Strategy',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Various stragegies have been implemented to make sure this first edition is a success.'
   },
   {
     icon: '<i class="fa-solid fa-cart-shopping fa-2x"></i>',
     title: 'Marketing',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Effective strategies have been used to draw attention to the public to create awareness.'
   },
   {
     icon: '<i class="fa-brands fa-adversal fa-2x"></i>',
     title: 'Adversing',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Different platforms such as tiktok, facebook, YouTube are being used to spread the word.'
   },
   {
     icon: '<i class="fa-solid fa-globe fa-2x"></i>',
     title: 'Websites',
-    description: 'Listen to the speakers from various countries about the messages of sharing and opening.'
+    description: 'Currently this is the official websites for the event. Other affiliate website will be shared.'
   },
 
 ];

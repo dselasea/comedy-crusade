@@ -77,7 +77,7 @@
 .event .event__content {
   display: grid;
   gap: 2rem;
-  color: var(--white)
+  color: var(--white);
 }
 
 .event .about__main--description {
@@ -114,9 +114,31 @@
 .event .event__content--text p {
   font-size: 1rem;
 }
-/*  */
 /* End of Main Section Program */
 
+/* Media Queries for desktop */
+@media screen and (min-width: 768px) {
+  .about {
+    padding: 6rem 0 12rem 0;
+  }
+  .about .about__title--small {
+    font-size: 2rem;
+  }
+  
+  .about .about__title--large {
+    font-size: 3.5rem;
+  }
+  
+  .about .about__description {
+    font-size: 1.2rem;
+    width: 65%;
+    margin: 2rem auto;
+  }
+
+  .event .event__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 
 
 

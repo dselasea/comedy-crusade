@@ -49,7 +49,7 @@ a:focus {
 }
 
 .background {
-  background: url("/digital-marketing-agency/images/homebg.png") no-repeat top center/cover;
+  background: url(/digital-marketing-agency/images/homebg.png) no-repeat top center/cover;
 }
 
 /* Social Navigation */

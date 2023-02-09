@@ -49,7 +49,7 @@ a:focus {
 }
 
 .background {
-  background: url("/images/homebg.png") no-repeat top center/cover;
+  background: url("/digital-marketing-agency/images/homebg.png") no-repeat top center/cover;
 }
 
 /* Social Navigation */
@@ -137,7 +137,7 @@ a:focus {
 }
 
 .header .header__title--large {
-  background: url("/images/titlebg.jpeg");
+  background: url(/digital-marketing-agency/images/titlebg.jpeg);
   font-size: 2.5rem;
   font-weight: 900;
   -webkit-background-clip: text;
@@ -445,7 +445,7 @@ a:focus {
   }
 
   .background {
-    background: url(/images/mobilebg.png) no-repeat top center/cover;
+    background: url(/digital-marketing-agency/images/mobilebg.png) no-repeat top center/cover;
   }
 
   .menu {

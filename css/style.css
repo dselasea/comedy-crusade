@@ -449,11 +449,11 @@ a:focus {
 
   .speaker .speaker__content--name {
     font-size: var(--tablet-font);
-}
+  }
 
-.speaker .speaker__content--description {
-  font-size: 1rem;
-}
+  .speaker .speaker__content--description {
+    font-size: 1rem;
+  }
 
   .speaker .speaker__person {
     max-width: 100%;

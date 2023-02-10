@@ -152,7 +152,7 @@
   .about .about__date--time,
   .about .about__date--email {
     font-size: var(--tablet-font);
-}
+  }
 
   .about .about__title--small {
     font-size: 2rem;
@@ -183,7 +183,7 @@
   .event .event__content--text h2 {
     font-size: 6rem;
   }
-  
+
   .event .event__content--text p {
     font-size: 1.5rem;
   }

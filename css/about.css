@@ -10,13 +10,13 @@
 }
 
 .about .about__title--small {
-  font-size: 1.5rem;
+  font-size: var(--title-main-phone);
   color: var(--orange);
   font-weight: 400;
 }
 
 .about .about__title--large {
-  font-size: 2.5rem;
+  font-size: var(--heading-main-phone);
   font-weight: 900;
   color: var(--orange);
 }
@@ -24,7 +24,7 @@
 .about .about__description {
   background-color: var(--white);
   border: 2px solid var(--white);
-  padding: 2rem;
+  padding: var(--phone-padding);
   margin: 2rem 0 3rem 0;
 }
 
@@ -35,12 +35,14 @@
 
 .about .about__date--time {
   opacity: 0.9;
+  font-size: var(--phone-font);
 }
 
 .about .about__date--email {
   font-weight: bolder;
   color: var(--black);
   text-decoration: underline;
+  font-size: var(--phone-font);
 }
 
 /* End of Section */
@@ -51,7 +53,7 @@
 
 .main .about__main--title,
 .main .event__main--title {
-  font-size: 1.5rem;
+  font-size: var(--title-main-tablet);
   position: relative;
   padding: 2rem 0;
 }
@@ -88,7 +90,7 @@
 
 .event .about__main--description {
   padding: 1rem 0;
-  font-size: 1.1rem;
+  font-size: var(--phone-font);
 }
 
 .event .event__content--img {
@@ -115,11 +117,11 @@
 }
 
 .event .event__content--text h2 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .event .event__content--text p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer .white {
@@ -147,6 +149,11 @@
     padding-bottom: 2rem;
   }
 
+  .about .about__date--time,
+  .about .about__date--email {
+    font-size: var(--tablet-font);
+}
+
   .about .about__title--small {
     font-size: 2rem;
   }
@@ -156,7 +163,7 @@
   }
 
   .about .about__description {
-    font-size: 1.2rem;
+    font-size: var(--tablet-font);
     width: 65%;
     margin: 2rem auto;
   }
@@ -167,6 +174,18 @@
 
   .event .event__content {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .event .about__main--description {
+    font-size: var(--tablet-font);
+  }
+
+  .event .event__content--text h2 {
+    font-size: 6rem;
+  }
+  
+  .event .event__content--text p {
+    font-size: 1.5rem;
   }
 
   .about__footer {

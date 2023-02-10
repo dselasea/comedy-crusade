@@ -439,6 +439,7 @@ a:focus {
     grid-template-columns: 1fr;
     text-align: center;
     font-size: var(--tablet-font);
+    padding: 2rem;
   }
 
   /* Speakers */

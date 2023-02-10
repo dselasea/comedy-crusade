@@ -122,10 +122,10 @@ function showMore() {
 }
 
 // Display Programs
-window.addEventListener('load', displayPrograms);
+window.addEventListener('DOMContentLoaded', displayPrograms);
 
 // Load Speakers
-window.addEventListener('load', loadSpeakers);
+window.addEventListener('DOMContentLoaded', loadSpeakers);
 
 // Display Desktop Speakers on Resize
 window.addEventListener('resize', resizeWindow);

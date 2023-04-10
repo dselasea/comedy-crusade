@@ -110,9 +110,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="http://127.0.0.1:5501/about.html" name="live-demo">GH Comedy Crusade</a>
-
-> Add a link to your deployed project.
+## 🚀 Live Demo <a href="http://127.0.0.1:5501/about.html" name="live-demo"></a>
 
 -  [Live Demo Link](https://dselasea.github.io/comedy-crusade/)
 
